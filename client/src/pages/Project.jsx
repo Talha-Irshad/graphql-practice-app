@@ -1,9 +1,11 @@
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@apollo/client";
-import Spinner from "../components/Spinner";
-import ClientInfo from "../components/ClientInfo";
-import DeleteProjectButton from "../components/DeleteProjectButton";
-import EditProjectForm from "../components/EditProjectForm";
+import {
+  Spinner,
+  ClientInfo,
+  DeleteProjectButton,
+  EditProjectForm,
+} from "../components";
 import { GET_PROJECT_BY_ID } from "../queries/projectQueries";
 
 const Project = () => {

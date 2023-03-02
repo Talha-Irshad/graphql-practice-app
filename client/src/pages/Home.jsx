@@ -1,7 +1,9 @@
-import Projects from "../components/Projects";
-import Clients from "../components/Clients";
-import AddClientModal from "../components/AddClientModal";
-import AddProjectModal from '../components/AddProjectModal';
+import {
+  Projects,
+  Clients,
+  AddClientModal,
+  AddProjectModal,
+} from "../components";
 
 const Home = () => {
   return (
